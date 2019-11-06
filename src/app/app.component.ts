@@ -1,4 +1,8 @@
-import { Component } from '@angular/core';
+// import * as Editor from '../../ckeditor5-build-classic/build/ckeditor';
+// import * as ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+
+
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +10,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ckeditor-test';
+  // public Editor = Editor;
+  // public ClassicEditor = ClassicEditor;
+
 }
